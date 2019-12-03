@@ -18,7 +18,7 @@
       ionic start myApp --type=ionic-angular
       配置Android环境
       ionic platform add android
-      打包 ionic build android
+  
       签名流程：
         生成无签名文件
         (1)ionic build android --release --prod
@@ -37,4 +37,4 @@
         -signedjar zmjj.apk android-release-unsigned.apk 表示给android-release-unsigned.apk文件签名，签名后的文件名称为zmjj.apk 
         spilledyear.keystore 表示证书的别名，对应于生成数字证书时-alias参数后面的名称
 
-
+ 最后打包 ionic build android
